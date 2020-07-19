@@ -2,12 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Content from './components/content/Content'
+import Nav from './components/nav/Nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>My Portfolio</h1>
+        <Nav/>
         <Content/>
       </header>
     </div>
