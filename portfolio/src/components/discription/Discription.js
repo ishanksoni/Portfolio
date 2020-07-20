@@ -1,10 +1,21 @@
 import React from 'react'
 import './Discription.css';
+import Bio from '../bio/Bio';
 
-function Discription() {
+function Discription({
+    Heading,
+    section,
+    }){
     return (
         <div className = "Discription">
-            <h1 className = "main-heading"> Heading</h1>
+            <div className = "main-heading">{Heading}</div>
+            <div>
+                {
+                    {
+                        Bio: <Bio/>,
+                    }[section]
+                }
+            </div>
         </div>
     )
 }

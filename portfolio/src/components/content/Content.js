@@ -6,7 +6,10 @@ function Content() {
     return (
         <div className = "Content">
             <Sidenav/>
-            <Discription/>
+            <Discription
+            Heading = "About"
+            section = "Bio"
+            />
         </div>
     )
 }

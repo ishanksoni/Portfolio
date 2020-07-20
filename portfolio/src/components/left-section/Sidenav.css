@@ -6,7 +6,6 @@
     height: 450px;
     border-radius: 24px;
     border-right: 1px solid whitesmoke;
-    
 }
 .Profile-pic{
     width: 140px;
@@ -29,11 +28,24 @@
     margin: 7px;
     border: 2px solid  #120e1f;
     transition: all .8s;
-    display: flex;
+    /* display: flex; */
 }
-
 .logo:hover{
     /* box-shadow: 1px 0px 0px white; */
     border: 2px solid  aqua;
     cursor: pointer;
+}
+.brief{
+    width:85%;
+    height: 180px;
+    font-size: 18px;
+    background-color:#120e1f;
+    display:inline-flex;
+    color:whitesmoke;
+    margin:10px;
+    border-top: 1px solid whitesmoke;
+}
+.brief:hover{
+    color: aqua;
+    text-shadow: 2px 2px 2px rgb(0, 131, 131);
 }
