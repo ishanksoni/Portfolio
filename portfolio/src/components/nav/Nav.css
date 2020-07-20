@@ -2,8 +2,8 @@
     color: white; 
     font-size: 24px;
     font-weight: 10;
-    padding: 0px 5px;;
-    margin: 70px;
+    padding: 0px 5px;
+    margin: 0%;
     box-shadow: 0 3px 1.4px rgba(245, 223, 223, 0.863), 0 2px 1.4px rgb(255, 254, 254);
     transition: all .4s ease-in;
 }

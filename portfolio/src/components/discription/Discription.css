@@ -17,3 +17,14 @@
     font-weight: lighter;
 }
 
+@media only screen and (max-width: 800px) {
+    .Discription{
+        width: 90%;
+        margin-top:10px;
+        margin-left:5%;
+        border-left: none;
+        border-radius: 0px 0px 10px 10px;
+        border-top:1px solid whitesmoke;
+    }
+}
+

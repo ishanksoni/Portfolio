@@ -3,7 +3,7 @@
     margin: 10px;
     width: 25%;
     margin-top: 25px;
-    height: 450px;
+    max-height: 450px;
     border-radius: 24px;
     border-right: 1px solid whitesmoke;
 }
@@ -25,19 +25,20 @@
 .logo{
     width:37px;
     border-radius:100px;
-    margin: 7px;
+    /* float: left; */
     border: 2px solid  #120e1f;
     transition: all .8s;
-    /* display: flex; */
+
 }
 .logo:hover{
     /* box-shadow: 1px 0px 0px white; */
     border: 2px solid  aqua;
     cursor: pointer;
+
 }
 .brief{
-    width:85%;
-    height: 180px;
+   
+    height: auto;
     font-size: 18px;
     background-color:#120e1f;
     display:inline-flex;
@@ -48,4 +49,16 @@
 .brief:hover{
     color: aqua;
     text-shadow: 2px 2px 2px rgb(0, 131, 131);
+}
+@media only screen and (max-width: 800px) {
+    .SideNav{
+        border-bottom: 1px solid whitesmoke;
+        border-right:none;
+        width: 90%;
+        margin-left: 5%;
+        border-radius: 0;
+    }
+    .logo{
+        width:25px;
+    }
 }

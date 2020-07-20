@@ -2,6 +2,7 @@
     background-color: #120e1f;
     /* margin-left: */
     margin-top: 20px;;
+    margin-bottom: 20px;
     width: 65%;
     min-height: 500px;
     display: flex;
@@ -18,4 +19,16 @@
     display: inline-block;
     
 }
+
+@media only screen and (max-width: 800px) {
+    .Content{
+        width:95%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .Content{
+        width:90%;
+    }
+}
+
 

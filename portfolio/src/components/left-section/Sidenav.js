@@ -14,7 +14,8 @@ function Sidenav() {
             <a href ="http://github.com/ishanksoni"><img  src = {github} title="Github" className="logo"/></a>
             <a href ="mailto:ishanksoni8696@gmail.com"><img src = {gmail} title="Mail" className ="logo"/></a>       
             <a href ="https://twitter.com/sherlock8696"><img src = {twitter} title="twitter" className ="logo"/></a>
-            <div className="brief"> <br/> Compititive-Programmer Full-stack Engineer <br/> Tech-Enthusiast </div>
+            <br/>
+            <div className="brief"> <br/> Compititive-Programmer <br/>Full-stack Engineer <br/> Tech-Enthusiast </div>
         </div>
     )
 }
