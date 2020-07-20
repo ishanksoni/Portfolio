@@ -1,4 +1,4 @@
-.Bio-container{
+.Project-container{
     margin: 100px;
     font-size: 16px;
     color: whitesmoke;
@@ -6,7 +6,6 @@
     animation-fill-mode: forwards;
     visibility: hidden;
 }
-
 
 @keyframes fadeIn {
     0% {

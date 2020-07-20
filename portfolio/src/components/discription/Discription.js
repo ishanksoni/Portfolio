@@ -1,20 +1,23 @@
 import React from 'react'
 import './Discription.css';
 import Bio from '../bio/Bio';
+import Skills from '../skills/Skills';
+import Projects from '../projects/Projects';
 
-function Discription({
-    Heading,
+function Discription(
+    {
     section,
     }){
     return (
         <div className = "Discription">
-            <div className = "main-heading">{Heading}</div>
             <div>
-                {
+            {
                     {
-                        Bio: <Bio/>,
+                        Bio: <Bio />,
+                        Skills: <Skills  />,
+                        Projects: <Projects  />
                     }[section]
-                }
+                } 
             </div>
         </div>
     )
