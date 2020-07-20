@@ -1,0 +1,39 @@
+.SideNav{
+    background-color: #120e1f;
+    margin: 10px;
+    width: 25%;
+    margin-top: 25px;
+    height: 450px;
+    border-radius: 24px;
+    border-right: 1px solid whitesmoke;
+    
+}
+.Profile-pic{
+    width: 140px;
+    padding: 4px;
+    border: 2px solid whitesmoke;
+    border-radius: 100px;
+}
+.Username{
+    font-size: 24px;
+    color:whitesmoke;
+    font-style: italic;
+    display:block;
+}
+.Username:hover{
+    cursor: pointer;
+}
+.logo{
+    width:37px;
+    border-radius:100px;
+    margin: 7px;
+    border: 2px solid  #120e1f;
+    transition: all .8s;
+    display: flex;
+}
+
+.logo:hover{
+    /* box-shadow: 1px 0px 0px white; */
+    border: 2px solid  aqua;
+    cursor: pointer;
+}

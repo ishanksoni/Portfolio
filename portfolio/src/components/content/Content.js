@@ -1,10 +1,12 @@
 import React from 'react'
 import './Content.css'
-
+import  Sidenav  from '../left-section/Sidenav';
+import Discription from '../discription/Discription';
 function Content() {
     return (
         <div className = "Content">
-            <h2>This is container</h2>
+            <Sidenav/>
+            <Discription/>
         </div>
     )
 }
