@@ -1,8 +1,8 @@
 
 .connect-container{
-    margin: 100px;
+    margin: 80px;
     font-size: 16px;
-    color: whitesmoke;
+    
     animation: 5s fadeIn;
     animation-fill-mode: forwards;
     visibility: hidden;
@@ -17,19 +17,20 @@
     }
   }
   .connect-container ul {
+    margin :0px;
     list-style: none;
+    padding :0px
   }
 
   .connect-container ul li {
     width: 75px;
     height: 75px;   
     line-height: 75px;
-    margin: 0 10px;
+    margin: 5px 10px;
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
     border: 5px solid #D8E2DC;
-    float: left;
     transition: all 0.5s ease;
   }
   .connect-container ul li .fa {
@@ -38,13 +39,13 @@
     transition: all 0.5s ease;
   }
   /*facebook*/
-  .connect-container ul li:hover.facebook {
+  .connect-container ul li:hover.linkedin {
     border: 5px solid #3b5998;
     box-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
   }
   
-  .connect-container ul li:hover .fa-facebook {
+  .connect-container ul li:hover .fa-linkedin {
     color: #3b5998;
     text-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
@@ -97,6 +98,29 @@
   .connect-container ul li:hover .fa-whatsapp {
     color: #4dc247;
     text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+
+  .connect-container ul li:hover.telegram {
+    border: 5px solid #0088CC;
+    box-shadow: 0 0 15px #0088CC ;
+    transition: all 0.5s ease;
+  }
+  
+  .connect-container ul li:hover .fa-telegram {
+    color: #0088CC;
+    text-shadow: 0 0 15px #0088CC;
+    transition: all 0.5s ease;
+  }
+
+  .connect-container ul li:hover.github {
+    border: 5px solid silver;
+    box-shadow: 0 0 15px silver;
+    transition: all 0.5s ease;
+  }
+  .connect-container ul li:hover .fa-github {
+    color:silver;
+    text-shadow: 0 0 15px silver;
     transition: all 0.5s ease;
   }
 

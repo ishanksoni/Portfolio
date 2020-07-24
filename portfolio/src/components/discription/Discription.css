@@ -1,5 +1,4 @@
 .Discription{
-    background-color: #120e1f;
     margin-top:25px;
     width: 70%;
     height:450px;
@@ -7,8 +6,8 @@
     border-radius: 24px;
     border-left: 1px solid whitesmoke;
     overflow-y: auto;
-    
 }
+
 .main-heading {
     font-size: 42px;
     margin:40px;
@@ -25,6 +24,7 @@
         border-left: none;
         border-radius: 0px 0px 10px 10px;
         border-top:1px solid whitesmoke;
+        height: 400px;
     }
     
 }

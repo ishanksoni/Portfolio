@@ -1,10 +1,21 @@
 .skill-container{
-    margin: 100px;
+    margin: 40px;
     font-size: 16px;
     color: whitesmoke;
     animation: 5s fadeIn;
     animation-fill-mode: forwards;
     visibility: hidden;
+    
+}
+.skills-icon{
+  border-radius: 100px;
+  width :100px;
+  height: 100px;
+  
+}
+.skills-icon:hover{
+  cursor: pointer;
+
 }
 @keyframes fadeIn {
     0% {

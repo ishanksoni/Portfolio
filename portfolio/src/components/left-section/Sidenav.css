@@ -1,5 +1,4 @@
 .SideNav{
-    background-color: #120e1f;
     margin: 10px;
     width: 25%;
     margin-top: 25px;
@@ -8,7 +7,7 @@
     border-right: 1px solid whitesmoke;
 }
 .Profile-pic{
-    width: 140px;
+    width: 170px;
     padding: 4px;
     border: 2px solid whitesmoke;
     border-radius: 100px;
@@ -25,7 +24,7 @@
 .brief{
     height: auto;
     font-size: 18px;
-    background-color:#120e1f;
+    
     display:inline-flex;
     color:whitesmoke;
     margin:10px;
