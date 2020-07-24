@@ -3,6 +3,7 @@ import './Discription.css';
 import Bio from '../bio/Bio';
 import Skills from '../skills/Skills';
 import Projects from '../projects/Projects';
+import Connect from '../connect/Connect';
 
 function Discription(
     {
@@ -15,7 +16,8 @@ function Discription(
                     {
                         Bio: <Bio />,
                         Skills: <Skills  />,
-                        Projects: <Projects  />
+                        Projects: <Projects  />,
+                        Connect : <Connect/>
                     }[section]
                 } 
             </div>

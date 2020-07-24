@@ -5,11 +5,12 @@ function Nav({
     handelOnClick
 }) {
     return (
-        <div className = "Nav">
+        <nav>
             <a className = "Nav-items" onClick = {() =>handelOnClick("Bio")}>About-me </a>
             <a className = "Nav-items" onClick = {() =>handelOnClick("Skills")}> Skills </a>
             <a className = "Nav-items" onClick = {() =>handelOnClick("Projects")}> Projects </a>
-        </div>
+            <a className = "Nav-items" onClick = {() =>handelOnClick("Connect")}> Connect </a>
+        </nav>
     )
 }
 

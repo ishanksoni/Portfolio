@@ -1,15 +1,59 @@
-.Nav-items {
-    color: white; 
-    font-size: 24px;
-    font-weight: 10;
-    padding: 0px 5px;
-    margin: 0%;
-    box-shadow: 0 3px 1.4px rgba(245, 223, 223, 0.863), 0 2px 1.4px rgb(255, 254, 254);
-    transition: all .4s ease-in;
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,100,400);
+
+nav{
+    width:auto;
+    top:50px;
+    margin-bottom: 50px;
+    z-index: 10;
+    position: fixed;
+  }
+
+  li{
+    list-style:none;
+    display:inline-block;
+    position:relative;
+    padding:10px;
+    z-index:10;
+  }
+  a{
+    text-decoration:none;
+    position:relative;
+    padding:6px 0;
+    -webkit-transition:all 0.8s;
+    transition:all 0.8s;
+    color:lightblue;
+  }
+  a:after{
+    content:'';
+    width:0%;
+    margin-left:50%;
+    height:2px;
+    bottom:0;
+    left:0;
+    border-radius:40%;
+    position:absolute;
+    transition:all 0.5s;
+  }
+  a:hover:after{
+    background-color:lightblue;
+    width:60%;
+    margin-left:20%;
+    box-shadow:0px 0px 10px lightblue;
+  }
+  a.active:after{
+    background-color:lightblue;
+    width:60%;
+    margin-left:20%;
+    box-shadow:0px 0px 10px lightblue;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    nav{
+        top:30px;
+    }
 }
-.Nav-items:hover{
-    background-color: #120e1f;
-    border-radius: 20px;;
-    cursor: pointer;
-    color: aqua;
+  @media only screen and (max-width: 800px) {
+    nav{
+        top:10px;
+    }
 }

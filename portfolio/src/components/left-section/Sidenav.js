@@ -11,11 +11,7 @@ function Sidenav() {
         <div className = "SideNav">
             <img src ="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_960_720.png" className ="Profile-pic" />
             <a className="Username">@sherlock8696</a>
-            <a href ="http://github.com/ishanksoni"><img  src = {github} title="Github" className="logo"/></a>
-            <a href ="mailto:ishanksoni8696@gmail.com"><img src = {gmail} title="Mail" className ="logo"/></a>       
-            <a href ="https://twitter.com/sherlock8696"><img src = {twitter} title="twitter" className ="logo"/></a>
-            <br/>
-            <div className="brief"> <br/> Compititive-Programmer <br/>Full-stack Engineer <br/> Tech-Enthusiast </div>
+            <div className="brief"> <br/> Compititive-Programmer <br/>Full-stack Engineer <br/> Tech-Enthusiast </div> 
         </div>
     )
 }

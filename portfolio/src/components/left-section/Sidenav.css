@@ -3,7 +3,7 @@
     margin: 10px;
     width: 25%;
     margin-top: 25px;
-    max-height: 450px;
+    max-height: 453px;
     border-radius: 24px;
     border-right: 1px solid whitesmoke;
 }
@@ -22,22 +22,7 @@
 .Username:hover{
     cursor: pointer;
 }
-.logo{
-    width:37px;
-    border-radius:100px;
-    /* float: left; */
-    border: 2px solid  #120e1f;
-    transition: all .8s;
-
-}
-.logo:hover{
-    /* box-shadow: 1px 0px 0px white; */
-    border: 2px solid  aqua;
-    cursor: pointer;
-
-}
 .brief{
-   
     height: auto;
     font-size: 18px;
     background-color:#120e1f;
@@ -58,7 +43,9 @@
         margin-left: 5%;
         border-radius: 0;
     }
-    .logo{
-        width:25px;
-    }
 }
+
+
+/*
+
+*/
