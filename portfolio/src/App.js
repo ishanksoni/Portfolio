@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import Nav from './components/nav/Nav'
 import Content from './components/content/Content'
 import './App.css';

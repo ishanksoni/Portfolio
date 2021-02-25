@@ -10,7 +10,6 @@ function Skills() {
             <br/>
             <p> <a>Do backend on </a></p>
             <img className ="skills-icon" src="https://img.icons8.com/color/144/000000/django.png" alt="django"/>
-            <img className ="skills-icon" src="https://cdn4.iconfinder.com/data/icons/logos-3/426/mysql-128.png" alt="MySQL"/>
 
             <br/>
             <p> <a>For frontend ---</a></p>
